@@ -15,7 +15,7 @@ body {
 /* Main */
 
 main {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
 }
 
@@ -24,6 +24,7 @@ main {
     position: absolute;
     padding: 0.5rem;
     border-radius: 15px;
+    font-size: 1rem;
 }
 
 .speaker {
@@ -40,8 +41,9 @@ main {
 .flex-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
-    padding-top: 4vh;
+    padding-top: 7vh;
     width: 80%;
 }
 
@@ -51,6 +53,7 @@ main {
 }
 
 .card {
+    height: 18vh ;
     position: relative;
     background-color: aqua;
     width: calc(94% / 6);
@@ -64,4 +67,54 @@ main {
 
 .name-tag {
     bottom: 0;
+    opacity: 0.9;
+}
+
+/* Nav */
+
+nav {
+    height: 10vh;
+    background-color: #222;
+}
+
+.nav {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    padding: 1vh 0;
+}
+
+.column {
+    display: flex;
+    justify-content: left;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.item {
+    text-align: center;
+}
+
+.left {
+    width: 15%;
+}
+
+.central {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-share-from-square {
+    color: green;
+}
+
+.right {
+    width: 10%;
+    justify-content: center;
+    background-color: grey;
+    color: red;
+    height: 100%;
+    padding: 1vh 0;
 }
